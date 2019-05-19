@@ -25,4 +25,10 @@ $ export PATH="$PATH:PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin"
 5 - Verify that the flutter/bin directory is now in your PATH by running:
 </p>
 <pre> $ echo $PATH</pre>
+
+# Using API
+<p>
+resources in: 
+<a href='http://jsonplaceholder.typicode.com/'> Json Placeholder Mock Data </a>
+</p>
 </html>
