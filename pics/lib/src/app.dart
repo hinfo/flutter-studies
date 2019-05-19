@@ -1,13 +1,17 @@
-import 'package:flutter/material.dart';
+import "package:flutter/material.dart";
+import 'package:http/http.dart' show get;
 
 class App extends StatefulWidget{
   createState(){
     return AppState();
   }
+
 }
 
 class AppState extends State<App>{
  int counter = 0;
+
+ fetchImage(){}
  
  Widget build(context){
    return  MaterialApp(
@@ -15,14 +19,9 @@ class AppState extends State<App>{
       body: Text('$counter'),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
-        onPressed: () {
-          setState((){
-             counter += 1;
-          });
-          print(counter);
-        },
-      ),
-      appBar : AppBar(
+        onPressed: fetchImage,
+          ),
+        appBar : AppBar(
         title: Text('Lets some see images!'),
       ),
     ),

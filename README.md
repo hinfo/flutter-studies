@@ -28,7 +28,17 @@ $ export PATH="$PATH:PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin"
 
 # Using API
 <p>
+Add this library on project:
+
+https://github.com/dart-lang/http
+
+to use get function to make requests.
+</p>
+<p>
 resources in: 
 <a href='http://jsonplaceholder.typicode.com/'> Json Placeholder Mock Data </a>
 </p>
+
+
+
 </html>
