@@ -1,4 +1,0 @@
-#Sun May 19 19:31:34 BRT 2019
-base.0=/dados/workspace/Projects/Personal/Flutter/Udemy/course/flutter-studies/pics/build/app/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex
